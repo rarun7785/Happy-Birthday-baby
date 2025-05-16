@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 3em;
+  color: #ffc0cb;
+}
+
+.main-img {
+  margin-top: 20px;
+  max-width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.4);
+}
+
+.poem {
+  margin: 20px auto;
+  width: 80%;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  white-space: pre-wrap;
+  display: none;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #ffc0cb;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff99aa;
+}
